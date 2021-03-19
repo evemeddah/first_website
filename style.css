@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,700;1,100&display=swap');
+
+body {
+	height: 100vh;
+	margin: 0;
+	font-family: "Poppins", arial;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+a{text-decoration: none;}
+
+img{width: 100%;}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 2em;
+	.logo {
+		
+	}
+}
+
+nav {
+	float: right;
+	background: rgb(243, 238, 233);
+}
+
+.presentation {
+	background: rgb(243, 238, 233);
+	color: #f7c1ca;
+	display: grid;
+	text-align: center;
+	padding: 4em
+}
+.presentation.design {
+
+}
+
+section {
+	padding: 4em 2em;
+}
+
+.about-me {
+	position: relative;
+
+}
+
+.subtitle {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: rgb(243, 238, 233);
+	letter-spacing: .2em;
+	font-size: .85em;
+
+}
+
+.description {
+	color: #3B3B3B;
+	margin-bottom: 3em;
+	font-size: .9em;
+	line-height: 1.8em;
+	font-weight: 500;
+
+}
+
+.featured-work {
+	background: #f7c1ca;
+}
+
+
+
+
+
+
+
+
